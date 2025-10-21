@@ -9,7 +9,7 @@ Works on **Ubuntu / Debian (20.04+)**.
 
 ### ⚙️ Install
 ```bash
-curl -sSL https://raw.githubusercontent.com/LewisStarkov/QuickProxySetup/main/setup.sh | sudo bash
+bash <(curl -Ls https://raw.githubusercontent.com/LewisStarkov/QuickProxySetup/master/setup.sh)
 ```
 Then enter:
 	•	Username
