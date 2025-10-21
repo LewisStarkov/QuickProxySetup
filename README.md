@@ -9,8 +9,8 @@ Works on **Ubuntu / Debian (20.04+)**.
 
 ### ⚙️ Install
 ```bash
-curl -sSL https://raw.githubusercontent.com/<your_username>/<your_repo>/main/setup.sh | sudo bash
-
+curl -sSL https://raw.githubusercontent.com/LewisStarkov/QuickProxySetup/main/setup.sh | sudo bash
+```
 Then enter:
 	•	Username
 	•	Password
