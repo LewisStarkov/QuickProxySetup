@@ -11,42 +11,5 @@ Works on **Ubuntu / Debian (20.04+)**.
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/LewisStarkov/QuickProxySetup/master/setup.sh)
 ```
-Then enter:
-	•	Username
-	•	Password
-	•	Port (default: 1080)
 
-⸻
-
-🧪 Test
-
-curl -x socks5://USER:PASS@SERVER_IP:PORT -4 https://ip.hetzner.com
-
-Logs: /var/log/socks.log
-Manage: sudo systemctl restart danted
-
-⸻
-
-🇷🇺 Русский
-
-⚙️ Установка
-
-curl -sSL https://raw.githubusercontent.com/<your_username>/<your_repo>/main/setup.sh | sudo bash
-
-Далее введи:
-	•	Логин
-	•	Пароль
-	•	Порт (по умолчанию 1080)
-
-⸻
-
-🧪 Проверка
-
-curl -x socks5://USER:PASS@SERVER_IP:PORT -4 https://ip.hetzner.com
-
-Логи: /var/log/socks.log
-Перезапуск: sudo systemctl restart danted
-
-⸻
-
-Supported OS: Ubuntu / Debian 20.04+
+Made by Lewis Starkov
